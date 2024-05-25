@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "script-src 'self' 'unsafe-inline'"
+          "value": "default-src 'self mailchimp.com *.mailchimp.com list-manage.com  us22.list-manage.com' 'unsafe-inline'"
         },
         {
           "key": "X-Frame-Options",
@@ -15,10 +15,7 @@
           "key": "X-Content-Type-Options",
           "value": "nosniff"
         },
-        {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
-        },
+
         {
           "key": "Permissions-Policy",
           "value": "geolocation=(), camera=(), microphone=()"
